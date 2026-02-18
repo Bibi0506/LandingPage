@@ -5,19 +5,108 @@
     margin: 0%;
 }
 
-
-
 .first-section{
-    padding: 20px;
+    padding: 10px 50px;
     background-color: #1F2937;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+h1, h2, h3, a, p, button{
+    color: white;
+}
 .header{
-    margin-bottom: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: baseline;
-    text-decoration:  #F9FaF8;
+}
+.hero{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 60px;
 }
 
+.hero-left{
+    flex-wrap: wrap;
+
+}
+.hero-btn{
+    background-color: #3882F6;
+    margin-top: 10px;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+
+}
+.hero-right{
+    background-color: #686a6d;
+    width: 300px;
+    height: 90px;
+    padding: 50px;
+}
+
+.second-section{
+    text-align: center;
+    display: grid;
+}
+
+.second-section>h2{
+    color: #1F2937;
+    padding: 40px;
+}
+.p-under-box>p{
+    color: #1F2937;
+}
+.empty-box{
+    border: #3882F6 2px solid;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+.empty-box-grid{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.p-under-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+/*
+.second-section{
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+
+.second-section>h2{
+    color: black;
+}
+.p-under-box{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: flex-end;
+    align-items: flex-end;
+}
+.empty-box{
+    border: 2px solid #3882F6;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    order: 5;
+    align-self: flex-start;
+}
+    */
